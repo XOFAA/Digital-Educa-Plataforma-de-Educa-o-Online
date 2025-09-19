@@ -38,7 +38,7 @@ Fluxo simplificado do projeto:
 
 ```mermaid
 graph TD
-    A [App Mobile (Flutter) / Frontend (React)] --> B[API NestJS]
+    A[App Mobile (Flutter) / Frontend (React)] --> B[API NestJS]
     B --> C[Banco de Dados MySQL]
     B --> D[Vimeo (Streaming de vídeos)]
     B --> E[Stripe (Pagamentos e assinaturas)]
